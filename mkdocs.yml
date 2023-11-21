@@ -13,3 +13,5 @@ nav:
   - widgets.md
   - functions.md
   - customapi.md
+  - regex.md
+  - datetime.md
