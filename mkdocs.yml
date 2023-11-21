@@ -1,0 +1,15 @@
+site_name: Gyana
+theme:
+  name: material
+nav:
+  - index.md
+  - collaboration.md
+  - integrations.md
+  - workflows.md
+  - dashboards.md
+  - automate.md
+  - export.md
+  - nodes.md
+  - widgets.md
+  - functions.md
+  - customapi.md
