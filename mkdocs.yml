@@ -1,17 +1,22 @@
 site_name: Gyana
 theme:
   name: material
+  features:
+  - navigation.sections
+  - navigation.path
 nav:
   - index.md
-  - collaboration.md
-  - integrations.md
-  - workflows.md
-  - dashboards.md
-  - automate.md
-  - export.md
-  - nodes.md
-  - widgets.md
-  - functions.md
-  - customapi.md
-  - regex.md
-  - datetime.md
+  - Getting Started:
+    - Collaboration: collaboration.md
+    - Integrations: integrations.md
+    - Workflows: workflows.md
+    - Dashboards: dashboards.md
+    - Automate: automate.md
+    - Export: export.md
+  - Reference:
+    - Nodes: nodes.md
+    - Widgets: widgets.md
+    - Functions: functions.md
+    - Custom API: customapi.md
+    - Regular Expressions: regex.md
+    - Date & Time: datetime.md
