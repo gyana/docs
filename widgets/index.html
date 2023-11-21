@@ -1,0 +1,951 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Widgets reference - Gyana</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="None" data-md-color-accent="None">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#widgets-reference" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Gyana" class="md-header__button md-logo" aria-label="Gyana" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Gyana
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Widgets reference
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Gyana" class="md-nav__button md-logo" aria-label="Gyana" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Gyana
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        What is Gyana?
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../collaboration/" class="md-nav__link">
+        Collaboration
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrations/" class="md-nav__link">
+        Integrations
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workflows/" class="md-nav__link">
+        Workflows
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dashboards/" class="md-nav__link">
+        Dashboards
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../automate/" class="md-nav__link">
+        Automate
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../export/" class="md-nav__link">
+        Export
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nodes/" class="md-nav__link">
+        Nodes reference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Widgets reference
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Widgets reference
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#text" class="md-nav__link">
+    Text
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#table" class="md-nav__link">
+    Table
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#column" class="md-nav__link">
+    Column
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacked-column" class="md-nav__link">
+    Stacked Column
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bar" class="md-nav__link">
+    Bar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacked-bar" class="md-nav__link">
+    Stacked Bar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#line" class="md-nav__link">
+    Line
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacked-line" class="md-nav__link">
+    Stacked Line
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pie" class="md-nav__link">
+    Pie
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#area" class="md-nav__link">
+    Area
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#donut" class="md-nav__link">
+    Donut
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scatter" class="md-nav__link">
+    Scatter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funnel" class="md-nav__link">
+    Funnel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyramid" class="md-nav__link">
+    Pyramid
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#radar" class="md-nav__link">
+    Radar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bubble" class="md-nav__link">
+    Bubble
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heatmap" class="md-nav__link">
+    Heatmap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metric" class="md-nav__link">
+    Metric
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gauge" class="md-nav__link">
+    Gauge
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timeseries" class="md-nav__link">
+    Timeseries
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combination-charts" class="md-nav__link">
+    Combination Charts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#url-embed" class="md-nav__link">
+    URL Embed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#image" class="md-nav__link">
+    Image
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#date-range-control" class="md-nav__link">
+    Date range control
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../functions/" class="md-nav__link">
+        Function reference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customapi/" class="md-nav__link">
+        Custom API reference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../regex/" class="md-nav__link">
+        Regular expressions reference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datetime/" class="md-nav__link">
+        Datetime reference
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#text" class="md-nav__link">
+    Text
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#table" class="md-nav__link">
+    Table
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#column" class="md-nav__link">
+    Column
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacked-column" class="md-nav__link">
+    Stacked Column
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bar" class="md-nav__link">
+    Bar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacked-bar" class="md-nav__link">
+    Stacked Bar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#line" class="md-nav__link">
+    Line
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stacked-line" class="md-nav__link">
+    Stacked Line
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pie" class="md-nav__link">
+    Pie
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#area" class="md-nav__link">
+    Area
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#donut" class="md-nav__link">
+    Donut
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scatter" class="md-nav__link">
+    Scatter
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funnel" class="md-nav__link">
+    Funnel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pyramid" class="md-nav__link">
+    Pyramid
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#radar" class="md-nav__link">
+    Radar
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bubble" class="md-nav__link">
+    Bubble
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heatmap" class="md-nav__link">
+    Heatmap
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metric" class="md-nav__link">
+    Metric
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gauge" class="md-nav__link">
+    Gauge
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timeseries" class="md-nav__link">
+    Timeseries
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#combination-charts" class="md-nav__link">
+    Combination Charts
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#url-embed" class="md-nav__link">
+    URL Embed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#image" class="md-nav__link">
+    Image
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#date-range-control" class="md-nav__link">
+    Date range control
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="widgets-reference">Widgets reference</h1>
+<p>How to use each widget in dashboards.</p>
+<p>Our detailed guide to each widget in workflows. <em>Over time, we'll expand each widget into a separate page with a detailed description, visual examples, and comparison to popular BI tools.</em></p>
+<h2 id="text">Text</h2>
+<p>Use the <strong>text</strong> widget to write explanatory notes on your dashboard.</p>
+<h2 id="table">Table</h2>
+<p>Use the <strong>table</strong> widget to display raw data in a grid of rows and columns.</p>
+<p>The dashboard user will be able to sort and paginate through the entire dataset, perform aggregation, and add formatting like currencies, percentage or positive and negative background colors.</p>
+<h2 id="column">Column</h2>
+<p>Use the <strong>column</strong> widget to display <strong>one or more</strong> metrics against <strong>one</strong> dimension.</p>
+<p>The horizontal x-axis of the chart shows the <strong>Dimension</strong>, and on the vertical y-axis are the <strong>Metrics</strong>. You need to calculate at least one metric, but you can add as many as you want.</p>
+<p>📚 <em>Example: Display the CPC and CPM by acquisition channel.</em></p>
+<h2 id="stacked-column">Stacked Column</h2>
+<p>Use the <strong>stacked column</strong> widget to display <strong>one</strong> metric against <strong><em>two</em></strong> dimensions.</p>
+<p>In a stacked column chart, each of the vertical bars from a column widget is segmented by a second <strong>Stack Dimension</strong>.</p>
+<p>By default, the height of each segment in the bar is the <em>value</em> of the metric. If you choose to <strong>Stack 100 percent</strong>, the height of each segment is the <em>proportion</em> of the metric.</p>
+<p>📚 <em>Example: Display the CPC by acquisition channel and day of the week.</em></p>
+<h2 id="bar">Bar</h2>
+<p>Use the <strong>bar</strong> widget to display a column widget in a horizontal direction.</p>
+<h2 id="stacked-bar">Stacked Bar</h2>
+<p>Use the <strong>stacked bar</strong> widget to display a stacked column widget in a horizontal direction.</p>
+<h2 id="line">Line</h2>
+<p>Use the <strong>line</strong> widget to display <strong>one or more</strong> metrics against an <strong>ordered</strong> dimension (e.g. date, ranking).</p>
+<p>The horizontal x-axis of the chart shows the ordered <strong>Dimension</strong>, and on the vertical y-axis are the <strong>Metrics</strong>. You need to calculate at least one metric, but you can add as many as you want.</p>
+<p>By default, the x-axis is ordered by the <strong>Dimension</strong> in ascending order. Usually, you'll want to keep it like this as in a line chart, the order of the data points represents something meaningful, like the order of time.</p>
+<p>💡 Line charts are currently the best chart for time series data. A dedicated time series chart is coming soon.</p>
+<p>📚 <em>Example: Display the CPC and CPM by week.</em></p>
+<h2 id="stacked-line">Stacked Line</h2>
+<p>Use the <strong>stacked line</strong> widgets to display one metric grouped by a <strong>stacked dimension</strong> against an <strong>ordered</strong> dimension.</p>
+<h2 id="pie">Pie</h2>
+<p>Use the <strong>pie</strong> widget to display <strong>one</strong> metric against <strong>one</strong> dimension as a percentage.</p>
+<p>Each slice of the pie shows the <strong>Dimension</strong>, and the size of the slice of the percentage of the metric <strong>Metric</strong>. You can only calculate one metric.</p>
+<p>💡 Pie charts are most useful for a few data points with large differences in metrics. For pie charts with more slices and minor variations in the data, consider the column chart.</p>
+<h2 id="area">Area</h2>
+<p>Use the <strong>area</strong> widget to display a line widget with a shaded area under the line.</p>
+<h2 id="donut">Donut</h2>
+<p>Use the <strong>donut</strong> widget to display a pie widget, where the slices become segments of a donut shape.</p>
+<h2 id="scatter">Scatter</h2>
+<p>Use the <strong>scatter</strong> widget to display the <strong>relationship</strong> <strong>between</strong> <strong>two</strong> metrics for <strong>one</strong> dimension.</p>
+<p>The horizontal x-axis of the chart shows the first <strong>Metric</strong>, and the vertical y-axis is the second <strong>Metric</strong>. Each data point on the scatter graph shows the values of the two metrics for each category in the <strong>Dimension</strong>.</p>
+<p>The scatter widget is useful to find if any relationship holds between the two metrics, independently of the value of the dimension.</p>
+<p>📚 <em>Example: Display the CPC versus CPM by acquisition channel to validate a correlation.</em></p>
+<h2 id="funnel">Funnel</h2>
+<p>Use the <strong>funnel</strong> widget to display <strong>multiple</strong> metrics over the <strong>stages of a process</strong>.</p>
+<p>Each segment of the funnel shows the stage, and the size of the segment is a <strong>Metric</strong>. By default, the stages of the funnel are ordered by the size of the metric.</p>
+<p>📚 <em>Example: Display total users by the stage of an e-commerce purchasing journey.</em></p>
+<h2 id="pyramid">Pyramid</h2>
+<p>Use the <strong>pyramid</strong> widget to display <strong>multiple</strong> metrics in a <strong>hierarchy</strong>.</p>
+<p>Each segment of the pyramid shows the stage in the hierarchy, and the size of the segment is a <strong>Metric</strong>. By default, the stages of the pyramid are ordered by the size of the metric.</p>
+<p>💡 A pyramid widget is the reverse of a funnel widget.</p>
+<h2 id="radar">Radar</h2>
+<p>Use the <strong>radar</strong> widget to display <strong>multiple</strong> metrics, optionally against <strong>one</strong> dimension.</p>
+<p>Each data point of the radar chart shows a <strong>Metric</strong>. If you optionally add a <strong>Dimension</strong>, each line represents a separate category.</p>
+<p>💡 Radar charts are most useful to compare a large number of metrics across a handful of categories. If you only have two data metrics, consider a scatter chart. If you have a large number of categories, consider a column chart.</p>
+<h2 id="bubble">Bubble</h2>
+<p>Use the <strong>bubble</strong> widget to display the relationship between <strong>three</strong> metrics for <strong>one</strong> dimension.</p>
+<p>In a bubble chart, each of the data points from a scatter widget has a size determined by the value of a third metric (<strong>Size Dimension</strong>).</p>
+<h2 id="heatmap">Heatmap</h2>
+<p>Use the <strong>heatmap</strong> widget to display <strong>one</strong> metric against <strong>two</strong> dimensions, in a grid of rows and columns.</p>
+<p>The rows and columns of the table show the two <strong>Dimensions</strong>, and the value and coloring represents the <strong>Metric</strong>.</p>
+<p>💡 The heatmap widget is like a pivot table with conditional formatting.</p>
+<h2 id="metric">Metric</h2>
+<p>A <strong>metric</strong> widget displays a single numeric value derived from an aggregation. They can be useful to show key insights like KPIs. If your page has a date range control or you added a date range to the widget itself you can select <strong>Compare to previous period</strong> to enable percentage change indicator. Click <strong>Positive decrease</strong> to display a reduction as positive.</p>
+<h2 id="gauge">Gauge</h2>
+<p>The <strong>gauge</strong> metric is perfect for showing percental progress in an intuitive manner. Simply provide a number or aggregation in percent and voíla!</p>
+<h2 id="timeseries">Timeseries</h2>
+<p>Timeseries charts are optimized for working with time data like stock prices. The dimension should always be a time, date or datetime column. Timeseries charts allow you to zoom into particular time frames and bin the data accordingly when getting a high-level view. Currently, we support:</p>
+<ul>
+<li>
+<p>Line and stacked lines</p>
+</li>
+<li>
+<p>Column and stacked columns</p>
+</li>
+<li>
+<p>Area</p>
+</li>
+</ul>
+<h2 id="combination-charts">Combination Charts</h2>
+<p>Combination charts allow you to combine line, column, and area charts into a single widget. First, select the <em>dimension</em> you want to plot on the X-Axis. All charts will use this as reference. Then add a chart of your choice and select the metric you want to display. You can select the secondary Y-axis checkbox to plot a chart on the right Y-axis.</p>
+<p>We recommend using not more than three different charts per widget to convey a clear and easily to understandable message.</p>
+<h2 id="url-embed">URL Embed</h2>
+<p>Use the URL embed widget to insert website embeds into your dashboards.</p>
+<p>You might find some websites limit domains they are able to embed to, if this is the case you can either reach out the administrator of the website to whitelist Gyana or if you own the website configure it yourself.</p>
+<h2 id="image">Image</h2>
+<p>Upload image files to your dashboard to decorate it or provide visual information.</p>
+<h2 id="date-range-control">Date range control</h2>
+<p>The <strong>Date range control</strong> widget enables you to filter selected charts by the same date range. Simply drag the widget onto your page select a preset period or select <strong>Custom</strong> and provide a <strong>Start</strong> and/or <strong>End</strong> date. All widgets that have a <strong>Date range column</strong> on the current page will update accordingly.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../nodes/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Nodes reference" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Nodes reference
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../functions/" class="md-footer__link md-footer__link--next" aria-label="Next: Function reference" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Function reference
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>

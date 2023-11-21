@@ -1,0 +1,2230 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Function reference - Gyana</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="None" data-md-color-accent="None">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#function-reference" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Gyana" class="md-header__button md-logo" aria-label="Gyana" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Gyana
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Function reference
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Gyana" class="md-nav__button md-logo" aria-label="Gyana" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Gyana
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        What is Gyana?
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../collaboration/" class="md-nav__link">
+        Collaboration
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrations/" class="md-nav__link">
+        Integrations
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workflows/" class="md-nav__link">
+        Workflows
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dashboards/" class="md-nav__link">
+        Dashboards
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../automate/" class="md-nav__link">
+        Automate
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../export/" class="md-nav__link">
+        Export
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nodes/" class="md-nav__link">
+        Nodes reference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../widgets/" class="md-nav__link">
+        Widgets reference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Function reference
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Function reference
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abs-number" class="md-nav__link">
+    abs( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-x-y" class="md-nav__link">
+    add( x, y )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#and-value" class="md-nav__link">
+    and( value, ... )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#between-value-lower-upper" class="md-nav__link">
+    between( value, lower, upper )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#convert-value-type" class="md-nav__link">
+    convert( value, type )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ceiling-number" class="md-nav__link">
+    ceiling( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coalesce-value" class="md-nav__link">
+    coalesce( value, ... )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contains-text-pattern" class="md-nav__link">
+    contains( text, pattern )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#date-year-month-day" class="md-nav__link">
+    date( year, month, day )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#time-hour-minute-second" class="md-nav__link">
+    time( hour, minute, second )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extract_date-date" class="md-nav__link">
+    extract_date( date )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#day-date" class="md-nav__link">
+    day( date )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#day_of_week-date" class="md-nav__link">
+    day_of_week( date )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#divide-dividend-divisor" class="md-nav__link">
+    divide( dividend, divisor )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epoch_seconds-timestamp" class="md-nav__link">
+    epoch_seconds( timestamp )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exp-value" class="md-nav__link">
+    exp( value )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#find-text-searchtext" class="md-nav__link">
+    find( text, searchtext )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#floor-number" class="md-nav__link">
+    floor( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fillnull-value-fill_value" class="md-nav__link">
+    fillnull( value, fill_value )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hash-value" class="md-nav__link">
+    hash( value )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hour-time" class="md-nav__link">
+    hour( time )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ifelse-condition-true_value-false_value" class="md-nav__link">
+    ifelse( condition, true_value, false_value )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#isnull-value" class="md-nav__link">
+    isnull( value )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#join-delimiter-text" class="md-nav__link">
+    join( delimiter, text, ... )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#json_extract-json-path-coming-soon" class="md-nav__link">
+    json_extract( json, path ) - coming soon 🚀
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#left-text-nchars" class="md-nav__link">
+    left( text, nchars )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#length-text" class="md-nav__link">
+    length( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#like-text-pattern" class="md-nav__link">
+    like( text, pattern )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ln-number" class="md-nav__link">
+    ln( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#log-number-base" class="md-nav__link">
+    log( number, base )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#log2-number" class="md-nav__link">
+    log2( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#log10-number" class="md-nav__link">
+    log10( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lower-text" class="md-nav__link">
+    lower( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lpad-text-length-fillchar" class="md-nav__link">
+    lpad( text, length [, fillchar] )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ltrim-text" class="md-nav__link">
+    ltrim( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#millisecond-time" class="md-nav__link">
+    millisecond( time )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minute-time" class="md-nav__link">
+    minute( time )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#month-date" class="md-nav__link">
+    month( date )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modulo-x-y" class="md-nav__link">
+    modulo( x, y )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-x-y" class="md-nav__link">
+    product( x, y )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notnull-value" class="md-nav__link">
+    notnull( value )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#now" class="md-nav__link">
+    now( )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#or-value" class="md-nav__link">
+    or( value, ... )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-number-exponent" class="md-nav__link">
+    power( number, exponent )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regex_extract-text-pattern-index" class="md-nav__link">
+    regex_extract( text, pattern, index )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regex_replace-text-pattern-replace" class="md-nav__link">
+    regex_replace( text, pattern, replace )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regex_search-text-pattern" class="md-nav__link">
+    regex_search( text, pattern )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#repeat-text-n" class="md-nav__link">
+    repeat( text, n )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#replace-text-pattern-replace" class="md-nav__link">
+    replace( text, pattern, replace )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reverse-text" class="md-nav__link">
+    reverse( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#right-text-nchars" class="md-nav__link">
+    right( text, nchars )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#round-number-digits" class="md-nav__link">
+    round( number, digits )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rpad-text-length-fillchar" class="md-nav__link">
+    rpad( text, length [, fillchar] )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rtrim-text" class="md-nav__link">
+    rtrim( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#second-time" class="md-nav__link">
+    second( time )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sqrt-number" class="md-nav__link">
+    sqrt( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parse_date-value-format" class="md-nav__link">
+    parse_date( value, format )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parse_time-value-format" class="md-nav__link">
+    parse_time( value, format )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parse_datetime-value-format" class="md-nav__link">
+    parse_datetime( value, format )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#format_datetime-datetime-format" class="md-nav__link">
+    format_datetime( datetime, format )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trim-text" class="md-nav__link">
+    trim( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#to_json_string-dictionary" class="md-nav__link">
+    to_json_string( dictionary )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#to_timezone-datetime-timezone" class="md-nav__link">
+    to_timezone( datetime, timezone )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subtract-minuend-subtrahend" class="md-nav__link">
+    subtract( minuend, subtrahend )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subtract_days-date-days" class="md-nav__link">
+    subtract_days( date, days )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#substitute-text-pattern-replace-else" class="md-nav__link">
+    substitute( text, pattern [, replace] [, else] )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extract_time-datetime" class="md-nav__link">
+    extract_time( datetime )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datetime_seconds-seconds-unit" class="md-nav__link">
+    datetime_seconds( seconds, unit )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datetime_diff-minuend-subtrahend-unit" class="md-nav__link">
+    datetime_diff( minuend, subtrahend, unit )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#today" class="md-nav__link">
+    today( )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#truncate-datetime-unit" class="md-nav__link">
+    truncate( datetime, unit )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upper-text" class="md-nav__link">
+    upper( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weekday-date" class="md-nav__link">
+    weekday( date )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#year-date" class="md-nav__link">
+    year( date )
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../customapi/" class="md-nav__link">
+        Custom API reference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../regex/" class="md-nav__link">
+        Regular expressions reference
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datetime/" class="md-nav__link">
+        Datetime reference
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#abs-number" class="md-nav__link">
+    abs( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-x-y" class="md-nav__link">
+    add( x, y )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#and-value" class="md-nav__link">
+    and( value, ... )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#between-value-lower-upper" class="md-nav__link">
+    between( value, lower, upper )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#convert-value-type" class="md-nav__link">
+    convert( value, type )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ceiling-number" class="md-nav__link">
+    ceiling( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coalesce-value" class="md-nav__link">
+    coalesce( value, ... )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contains-text-pattern" class="md-nav__link">
+    contains( text, pattern )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#date-year-month-day" class="md-nav__link">
+    date( year, month, day )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#time-hour-minute-second" class="md-nav__link">
+    time( hour, minute, second )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extract_date-date" class="md-nav__link">
+    extract_date( date )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#day-date" class="md-nav__link">
+    day( date )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#day_of_week-date" class="md-nav__link">
+    day_of_week( date )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#divide-dividend-divisor" class="md-nav__link">
+    divide( dividend, divisor )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epoch_seconds-timestamp" class="md-nav__link">
+    epoch_seconds( timestamp )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exp-value" class="md-nav__link">
+    exp( value )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#find-text-searchtext" class="md-nav__link">
+    find( text, searchtext )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#floor-number" class="md-nav__link">
+    floor( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fillnull-value-fill_value" class="md-nav__link">
+    fillnull( value, fill_value )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hash-value" class="md-nav__link">
+    hash( value )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hour-time" class="md-nav__link">
+    hour( time )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ifelse-condition-true_value-false_value" class="md-nav__link">
+    ifelse( condition, true_value, false_value )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#isnull-value" class="md-nav__link">
+    isnull( value )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#join-delimiter-text" class="md-nav__link">
+    join( delimiter, text, ... )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#json_extract-json-path-coming-soon" class="md-nav__link">
+    json_extract( json, path ) - coming soon 🚀
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#left-text-nchars" class="md-nav__link">
+    left( text, nchars )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#length-text" class="md-nav__link">
+    length( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#like-text-pattern" class="md-nav__link">
+    like( text, pattern )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ln-number" class="md-nav__link">
+    ln( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#log-number-base" class="md-nav__link">
+    log( number, base )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#log2-number" class="md-nav__link">
+    log2( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#log10-number" class="md-nav__link">
+    log10( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lower-text" class="md-nav__link">
+    lower( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lpad-text-length-fillchar" class="md-nav__link">
+    lpad( text, length [, fillchar] )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ltrim-text" class="md-nav__link">
+    ltrim( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#millisecond-time" class="md-nav__link">
+    millisecond( time )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#minute-time" class="md-nav__link">
+    minute( time )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#month-date" class="md-nav__link">
+    month( date )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modulo-x-y" class="md-nav__link">
+    modulo( x, y )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-x-y" class="md-nav__link">
+    product( x, y )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notnull-value" class="md-nav__link">
+    notnull( value )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#now" class="md-nav__link">
+    now( )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#or-value" class="md-nav__link">
+    or( value, ... )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-number-exponent" class="md-nav__link">
+    power( number, exponent )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regex_extract-text-pattern-index" class="md-nav__link">
+    regex_extract( text, pattern, index )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regex_replace-text-pattern-replace" class="md-nav__link">
+    regex_replace( text, pattern, replace )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#regex_search-text-pattern" class="md-nav__link">
+    regex_search( text, pattern )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#repeat-text-n" class="md-nav__link">
+    repeat( text, n )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#replace-text-pattern-replace" class="md-nav__link">
+    replace( text, pattern, replace )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reverse-text" class="md-nav__link">
+    reverse( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#right-text-nchars" class="md-nav__link">
+    right( text, nchars )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#round-number-digits" class="md-nav__link">
+    round( number, digits )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rpad-text-length-fillchar" class="md-nav__link">
+    rpad( text, length [, fillchar] )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rtrim-text" class="md-nav__link">
+    rtrim( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#second-time" class="md-nav__link">
+    second( time )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sqrt-number" class="md-nav__link">
+    sqrt( number )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parse_date-value-format" class="md-nav__link">
+    parse_date( value, format )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parse_time-value-format" class="md-nav__link">
+    parse_time( value, format )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parse_datetime-value-format" class="md-nav__link">
+    parse_datetime( value, format )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#format_datetime-datetime-format" class="md-nav__link">
+    format_datetime( datetime, format )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trim-text" class="md-nav__link">
+    trim( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#to_json_string-dictionary" class="md-nav__link">
+    to_json_string( dictionary )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#to_timezone-datetime-timezone" class="md-nav__link">
+    to_timezone( datetime, timezone )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subtract-minuend-subtrahend" class="md-nav__link">
+    subtract( minuend, subtrahend )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subtract_days-date-days" class="md-nav__link">
+    subtract_days( date, days )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#substitute-text-pattern-replace-else" class="md-nav__link">
+    substitute( text, pattern [, replace] [, else] )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extract_time-datetime" class="md-nav__link">
+    extract_time( datetime )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datetime_seconds-seconds-unit" class="md-nav__link">
+    datetime_seconds( seconds, unit )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datetime_diff-minuend-subtrahend-unit" class="md-nav__link">
+    datetime_diff( minuend, subtrahend, unit )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#today" class="md-nav__link">
+    today( )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#truncate-datetime-unit" class="md-nav__link">
+    truncate( datetime, unit )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#upper-text" class="md-nav__link">
+    upper( text )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#weekday-date" class="md-nav__link">
+    weekday( date )
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#year-date" class="md-nav__link">
+    year( date )
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="function-reference">Function reference</h1>
+<p>How to use functions within the formula node in workflows.</p>
+<h2 id="abs-number">abs( number )</h2>
+<p>Calculate the absolute value of a numeric value.</p>
+<p>Arguments:</p>
+<ul>
+<li><em>number:</em> a numeric scalar or column</li>
+</ul>
+<h2 id="add-x-y">add( x, y )</h2>
+<p>Adds two numeric values together.</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>x:</em> a numeric scalar or column</p>
+</li>
+<li>
+<p><em>y:</em> a numeric scalar or column</p>
+</li>
+</ul>
+<h2 id="and-value">and( value, ... )</h2>
+<p>Logical and operaion</p>
+<p>Arguments:</p>
+<ul>
+<li><em>value:</em> boolean scalars or columns</li>
+</ul>
+<h2 id="between-value-lower-upper">between( value, lower, upper )</h2>
+<p>Check if value falls between the lower/upper bounds.</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>value:</em> a scalar or column</p>
+</li>
+<li>
+<p><em>lower:</em> a scalar or column representing the lower bound</p>
+</li>
+<li>
+<p><em>upper:</em> a scalar or column representing the upper bound</p>
+</li>
+</ul>
+<h2 id="convert-value-type">convert( value, type )</h2>
+<p>Change the type of a value to a different data type.</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>value:</em> a scalar or column</p>
+</li>
+<li>
+<p><em>type:</em> the type to convert to, accepts `text`, `float`, `int`, `str`, `time`, `date` and `timestamp`</p>
+</li>
+</ul>
+<h2 id="ceiling-number">ceiling( number )</h2>
+<p>Round a numeric value up to the nearest integer value greater than or equal to this value.</p>
+<p>Arguments:</p>
+<ul>
+<li><em>number:</em> a numeric scalar or column</li>
+</ul>
+<h2 id="coalesce-value">coalesce( value, ... )</h2>
+<p>Returns the first non-null value from the passed arguments in left-to-right order</p>
+<p>Arguments:</p>
+<ul>
+<li><em>value:</em> scalars or columns, uses the first not null record</li>
+</ul>
+<h2 id="contains-text-pattern">contains( text, pattern )</h2>
+<p>Determine if text exactly contains the given pattern.</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>text:</em> a text scalar or column that should contain pattern</p>
+</li>
+<li>
+<p><em>pattern:</em> a text scalar or column that should be in text</p>
+</li>
+</ul>
+<h2 id="date-year-month-day">date( year, month, day )</h2>
+<p>Create a date from year, month and day</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>year:</em> a integer scalar or column providing the year</p>
+</li>
+<li>
+<p><em>month:</em> a integer scalar or column providing the month</p>
+</li>
+<li>
+<p><em>day:</em> a integer scalar or column providing the day</p>
+</li>
+</ul>
+<h2 id="time-hour-minute-second">time( hour, minute, second )</h2>
+<p>Create a time from hour, minute and second</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>hour:</em> a integer scalar or column providing the hour</p>
+</li>
+<li>
+<p><em>minute:</em> a integer scalar or column providing the minute</p>
+</li>
+<li>
+<p><em>second:</em> a integer scalar or column providing the second</p>
+</li>
+</ul>
+<h2 id="extract_date-date">extract_date( date )</h2>
+<p>Get date part from a timestamp value</p>
+<h2 id="day-date">day( date )</h2>
+<p>Get the day of month from a date or timestamp value</p>
+<p>Arguments:</p>
+<ul>
+<li><em>date:</em> a timestamp scalar or column</li>
+</ul>
+<h2 id="day_of_week-date">day_of_week( date )</h2>
+<p>Get day of the week from date or timestamp, starting from 1 Sunday to 7 Saturday</p>
+<p>Arguments:</p>
+<ul>
+<li><em>date:</em> a timestamp scalar or column</li>
+</ul>
+<h2 id="divide-dividend-divisor">divide( dividend, divisor )</h2>
+<p>Divide dividend by divisor</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>dividend:</em> a numeric scalar or column</p>
+</li>
+<li>
+<p><em>divisor:</em> a numeric scalar or column</p>
+</li>
+</ul>
+<h2 id="epoch_seconds-timestamp">epoch_seconds( timestamp )</h2>
+<p>Seconds passed since 00:00:00 UTC on 1 January 1970 also called UNIX time</p>
+<p>Arguments:</p>
+<ul>
+<li><em>timestamp:</em> a timestamp scalar or column</li>
+</ul>
+<h2 id="exp-value">exp( value )</h2>
+<p>Calculate exponential value</p>
+<p>Arguments:</p>
+<ul>
+<li><em>value:</em> a scalar or column</li>
+</ul>
+<h2 id="find-text-searchtext">find( text, searchtext )</h2>
+<p>Returns position (0 indexed) of first occurence of searchtext in text</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>text:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>searchtext:</em> a text scalar or column</p>
+</li>
+</ul>
+<h2 id="floor-number">floor( number )</h2>
+<p>Rounding down a numeric value to the greatest integer less or eqqual</p>
+<p>Arguments:</p>
+<ul>
+<li><em>number:</em> a numeric scalar or column</li>
+</ul>
+<h2 id="fillnull-value-fill_value">fillnull( value, fill_value )</h2>
+<p>Replace nulls in value with fill_value</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>value:</em> a scalar or column</p>
+</li>
+<li>
+<p><em>fill_value:</em> a scalar or column</p>
+</li>
+</ul>
+<h2 id="hash-value">hash( value )</h2>
+<p>Produces a cryptographic fingerprint from value using the Fingerprint64 method</p>
+<p>Arguments:</p>
+<ul>
+<li><em>value:</em> a scalar or column</li>
+</ul>
+<h2 id="hour-time">hour( time )</h2>
+<p>Get the hour from date or timestamp</p>
+<p>Arguments:</p>
+<ul>
+<li><em>time:</em> a time scalar or column</li>
+</ul>
+<h2 id="ifelse-condition-true_value-false_value">ifelse( condition, true_value, false_value )</h2>
+<p>Returns the first value if condition is true if not it returns the second value</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>condition:</em> a condition of a boolean column, scalar or another formula</p>
+</li>
+<li>
+<p><em>true_value:</em> scalar or column that is return if condition is true</p>
+</li>
+<li>
+<p><em>false_value:</em> scalar or column that is return if condition is false</p>
+</li>
+</ul>
+<h2 id="isnull-value">isnull( value )</h2>
+<p>Check whether value is null</p>
+<p>Arguments:</p>
+<ul>
+<li><em>value:</em> a scalar or column</li>
+</ul>
+<h2 id="join-delimiter-text">join( delimiter, text, ... )</h2>
+<p>Concatenate text with the delimiter</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>delimiter:</em> a value that is used to separate the following arguments</p>
+</li>
+<li>
+<p><em>text:</em> a text scalar or column</p>
+</li>
+</ul>
+<h2 id="json_extract-json-path-coming-soon">json_extract( json, path ) - coming soon 🚀</h2>
+<p>Extract a field inside JSON, returns text</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>json:</em> a text value in JSON format</p>
+</li>
+<li>
+<p><em>path:</em> path to the desired item in the format e.g. `$.a.b[0]`</p>
+</li>
+</ul>
+<h2 id="left-text-nchars">left( text, nchars )</h2>
+<p>Return up to nchars characters starting from start of each text</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>text:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>nchars:</em> a numeric scalar or column indicating the number of characters from left that are returned</p>
+</li>
+</ul>
+<h2 id="length-text">length( text )</h2>
+<p>Calculate character length from text</p>
+<p>Arguments:</p>
+<ul>
+<li><em>text:</em> a text scalar or column</li>
+</ul>
+<h2 id="like-text-pattern">like( text, pattern )</h2>
+<p>Compare text with another pattern, returns True if pattern is like text</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>text:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>pattern:</em> a text scalar or column</p>
+</li>
+</ul>
+<h2 id="ln-number">ln( number )</h2>
+<p>Returns the natural logarithm of number</p>
+<p>Arguments:</p>
+<ul>
+<li><em>number:</em> a numeric scalar or column</li>
+</ul>
+<h2 id="log-number-base">log( number, base )</h2>
+<p>Returns the logarithm with base of number</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>number:</em> a numeric scalar or column</p>
+</li>
+<li>
+<p><em>base:</em> a numeric scalar or column</p>
+</li>
+</ul>
+<h2 id="log2-number">log2( number )</h2>
+<p>Returns the logarithm with base 2 of number</p>
+<p>Arguments:</p>
+<ul>
+<li><em>number:</em> a number scalar or column</li>
+</ul>
+<h2 id="log10-number">log10( number )</h2>
+<p>Returns the logarithm with base 10 of number</p>
+<p>Arguments:</p>
+<ul>
+<li><em>number:</em> a numeric scalar or column</li>
+</ul>
+<h2 id="lower-text">lower( text )</h2>
+<p>Turns text to lowercase</p>
+<p>Arguments:</p>
+<ul>
+<li><em>text:</em> a text scalar or column</li>
+</ul>
+<h2 id="lpad-text-length-fillchar">lpad( text, length [, fillchar] )</h2>
+<p>Returns string of given length by truncating (on left) or padding (on left) original string</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>text:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>length:</em> a numeric scalar or column indicating the length of the resulting text</p>
+</li>
+<li>
+<p><em>fillchar:</em> a text scalar or column</p>
+</li>
+</ul>
+<h2 id="ltrim-text">ltrim( text )</h2>
+<p>Remove white space on the left of text</p>
+<p>Arguments:</p>
+<ul>
+<li><em>text:</em> a text scalar or column</li>
+</ul>
+<h2 id="millisecond-time">millisecond( time )</h2>
+<p>Get the milliseconds from date or timestamp</p>
+<p>Arguments:</p>
+<ul>
+<li><em>time:</em> a time scalar or column</li>
+</ul>
+<h2 id="minute-time">minute( time )</h2>
+<p>Get the minute from date or timestamp</p>
+<p>Arguments:</p>
+<ul>
+<li><em>time:</em> a time scalar or column</li>
+</ul>
+<h2 id="month-date">month( date )</h2>
+<p>Get the month from date or timestamp</p>
+<p>Arguments:</p>
+<ul>
+<li><em>date:</em> a timestamp scalar or column</li>
+</ul>
+<h2 id="modulo-x-y">modulo( x, y )</h2>
+<p>Compute the modulo of x and y</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>x:</em> an integer scalar or column</p>
+</li>
+<li>
+<p><em>y:</em> an integer scalar or column</p>
+</li>
+</ul>
+<h2 id="product-x-y">product( x, y )</h2>
+<p>Multiply x and y</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>x:</em> a numeric scalar or column</p>
+</li>
+<li>
+<p><em>y:</em> a numeric scalar or column</p>
+</li>
+</ul>
+<h2 id="notnull-value">notnull( value )</h2>
+<p>Check whether value is null</p>
+<p>Arguments:</p>
+<ul>
+<li><em>value:</em> a scalar or column</li>
+</ul>
+<h2 id="now">now( )</h2>
+<p>Compute the current datetime</p>
+<h2 id="or-value">or( value, ... )</h2>
+<p>Logical or operaion</p>
+<p>Arguments:</p>
+<ul>
+<li><em>value:</em> boolean scalars or columns</li>
+</ul>
+<h2 id="power-number-exponent">power( number, exponent )</h2>
+<p>Calculate the number to the power of exponent</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>number:</em> a numeric scalar or column</p>
+</li>
+<li>
+<p><em>exponent:</em> a numeric scalar or column</p>
+</li>
+</ul>
+<h2 id="regex_extract-text-pattern-index">regex_extract( text, pattern, index )</h2>
+<p><em>👉 Read our in depth guide on regular expressions</em></p>
+<p>Returns specified index, 0 indexed, from text based on regex pattern given</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>text:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>pattern:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>index:</em> a numeric scalar or column</p>
+</li>
+</ul>
+<h2 id="regex_replace-text-pattern-replace">regex_replace( text, pattern, replace )</h2>
+<p><em>👉 Read our in depth guide on regular expressions</em></p>
+<p>Replaces match found in text by regex pattern with replace text.</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>text:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>pattern:</em> a text scalar or column that is being replaced by</p>
+</li>
+<li>
+<p><em>replace:</em> a text scalar or column that replaces the pattern in text</p>
+</li>
+</ul>
+<h2 id="regex_search-text-pattern">regex_search( text, pattern )</h2>
+<p><em>👉 Read our in depth guide on regular expressions</em></p>
+<p>Search regex pattern in text</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>text:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>pattern:</em> a text scalar or column</p>
+</li>
+</ul>
+<h2 id="repeat-text-n">repeat( text, n )</h2>
+<p>Repeat text n times</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>text:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>n:</em> a numeric scalar or column</p>
+</li>
+</ul>
+<h2 id="replace-text-pattern-replace">replace( text, pattern, replace )</h2>
+<p>Replaces each exact occurrence of pattern in text with replace</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>text:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>pattern:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>replace:</em> a text scalar or column that replaces the pattern in text</p>
+</li>
+</ul>
+<h2 id="reverse-text">reverse( text )</h2>
+<p>Reverse text character order</p>
+<p>Arguments:</p>
+<ul>
+<li><em>text:</em> a text scalar or column</li>
+</ul>
+<h2 id="right-text-nchars">right( text, nchars )</h2>
+<p>Return up to nchar characters starting from end of each text.</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>text:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>nchars:</em> a numeric scalar or column indicating the number of characters from right that are returned</p>
+</li>
+</ul>
+<h2 id="round-number-digits">round( number, digits )</h2>
+<p>Round number to digit decimal positon</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>number:</em> a numeric scalar or column</p>
+</li>
+<li>
+<p><em>digits:</em> an integer scalar or column</p>
+</li>
+</ul>
+<h2 id="rpad-text-length-fillchar">rpad( text, length [, fillchar] )</h2>
+<p>Returns string of given length by truncating (on right) or padding (on right) original string</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>text:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>length:</em> a numeric scalar or column</p>
+</li>
+<li>
+<p><em>fillchar:</em> a numeric scalar or column</p>
+</li>
+</ul>
+<h2 id="rtrim-text">rtrim( text )</h2>
+<p>Remove white space on the right of text</p>
+<p>Arguments:</p>
+<ul>
+<li><em>text:</em> a text scalar or column</li>
+</ul>
+<h2 id="second-time">second( time )</h2>
+<p>Get the seconds from time or timestamp</p>
+<p>Arguments:</p>
+<ul>
+<li><em>time:</em> a time scalar or column</li>
+</ul>
+<h2 id="sqrt-number">sqrt( number )</h2>
+<p>Calculate the square root</p>
+<p>Arguments:</p>
+<ul>
+<li><em>number:</em> a numeric scalar or column</li>
+</ul>
+<h2 id="parse_date-value-format">parse_date( value, format )</h2>
+<p><em>👉 Read our in depth guide on parsing</em></p>
+<p>Creates a date from a provided text and format</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>value:</em> a text scalar or column in the representing a date in `format`</p>
+</li>
+<li>
+<p><em>format:</em> a text scalar or column defining the date format of `value` e.g '%Y-%m-%d'</p>
+</li>
+</ul>
+<h2 id="parse_time-value-format">parse_time( value, format )</h2>
+<p><em>👉 Read our in depth guide on parsing</em></p>
+<p>Creates a time from a provided text and format</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>value:</em> a text scalar or column in the representing a time in `format`</p>
+</li>
+<li>
+<p><em>format:</em> a text scalar or column defining the time format of `value` e.g '%Y-%m-%d'</p>
+</li>
+</ul>
+<h2 id="parse_datetime-value-format">parse_datetime( value, format )</h2>
+<p><em>👉 Read our in depth guide on parsing</em></p>
+<p>Creates a datetime from a provided text and format</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>value:</em> a text scalar or column in the representing a datetime in `format`</p>
+</li>
+<li>
+<p><em>format:</em> a text scalar or column defining the datetime format of `value` e.g '%Y-%m-%d'</p>
+</li>
+</ul>
+<h2 id="format_datetime-datetime-format">format_datetime( datetime, format )</h2>
+<p><em>👉 Read our in depth guide on formatting</em></p>
+<p>Format timestamp into string with given format</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>datetime:</em> a datetime scalar or column</p>
+</li>
+<li>
+<p><em>format:</em> determines how the resulting text is formatted</p>
+</li>
+</ul>
+<h2 id="trim-text">trim( text )</h2>
+<p>Remove white space surrounding the text</p>
+<p>Arguments:</p>
+<ul>
+<li><em>text:</em> a text scalar or column</li>
+</ul>
+<h2 id="to_json_string-dictionary">to_json_string( dictionary )</h2>
+<p>Transform a dictionary to a JSON string</p>
+<p>Arguments:</p>
+<ul>
+<li><em>dictionary:</em> a dictionary column or scalar</li>
+</ul>
+<h2 id="to_timezone-datetime-timezone">to_timezone( datetime, timezone )</h2>
+<p>Convert a date &amp; time to a new date &amp; time in a different timezone</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>datetime:</em> a date &amp; time scalar or column</p>
+</li>
+<li>
+<p>timezone: the time zone for the new column in tz format e.g. 'US/Pacific' (see a list here)</p>
+</li>
+</ul>
+<h2 id="subtract-minuend-subtrahend">subtract( minuend, subtrahend )</h2>
+<p>Substract subtrahend from minuend</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>minuend:</em> a numeric scalar or column</p>
+</li>
+<li>
+<p><em>subtrahend:</em> a numeric scalar or column</p>
+</li>
+</ul>
+<h2 id="subtract_days-date-days">subtract_days( date, days )</h2>
+<p>Substract days from date</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>date:</em> a date scalar or column</p>
+</li>
+<li>
+<p><em>days:</em> an integer scalar or column of days to subtract</p>
+</li>
+</ul>
+<h2 id="substitute-text-pattern-replace-else">substitute( text, pattern [, replace] [, else] )</h2>
+<p>Replace text if with replace if pattern is equal to text optional replace with else</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>text:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>pattern:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>replace:</em> a text scalar or column</p>
+</li>
+<li>
+<p><em>else:</em> a text scalar or column</p>
+</li>
+</ul>
+<h2 id="extract_time-datetime">extract_time( datetime )</h2>
+<p>Get the time from a timestamp</p>
+<p>Arguments:</p>
+<ul>
+<li><em>datetime:</em> a datetime scalar or column</li>
+</ul>
+<h2 id="datetime_seconds-seconds-unit">datetime_seconds( seconds, unit )</h2>
+<p>Create a datetime from an integer as the number of unit since from January 1st, 1970 UTC (unix time)</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>seconds:</em> an integer scalar or column</p>
+</li>
+<li>
+<p><em>unit:</em> "s" for seconds, "ms" for milliseconds, "us" for microseconds</p>
+</li>
+</ul>
+<h2 id="datetime_diff-minuend-subtrahend-unit">datetime_diff( minuend, subtrahend, unit )</h2>
+<p>Get the difference between minuend and subtrahend in the given unit</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>minuend:</em> a datetime scalar or column</p>
+</li>
+<li>
+<p><em>subtrahend:</em> a datetime scalar or column</p>
+</li>
+<li>
+<p><em>unit:</em> unit of the difference e.g. "s" for seconds</p>
+</li>
+</ul>
+<h2 id="today">today( )</h2>
+<p>Compute today's date</p>
+<h2 id="truncate-datetime-unit">truncate( datetime, unit )</h2>
+<p>Zero out smaller-size units beyond indicated unit</p>
+<p>Arguments:</p>
+<ul>
+<li>
+<p><em>datetime:</em> a datetime scalar or column</p>
+</li>
+<li>
+<p><em>unit:</em> unit e.g. "s" for seconds</p>
+</li>
+</ul>
+<h2 id="upper-text">upper( text )</h2>
+<p>Capitalize text.</p>
+<p>Arguments:</p>
+<ul>
+<li><em>text:</em> a text scalar or column</li>
+</ul>
+<h2 id="weekday-date">weekday( date )</h2>
+<p>Gets weekday from a date</p>
+<p>Arguments:</p>
+<ul>
+<li><em>date:</em> a timestamp scalar or column</li>
+</ul>
+<h2 id="year-date">year( date )</h2>
+<p>Get the year from date</p>
+<p>Arguments:</p>
+<ul>
+<li><em>date:</em> a timestamp scalar or column</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../widgets/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Widgets reference" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Widgets reference
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../customapi/" class="md-footer__link md-footer__link--next" aria-label="Next: Custom API reference" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Custom API reference
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>
