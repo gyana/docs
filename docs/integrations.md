@@ -33,8 +33,7 @@ Connectors are the best choice, if available. After a one-time authorization pro
 
 Connectors are powered by our unique partnership with Fivetran. They've built an enterprise grade data integration platform that is trusted by 2000+ demanding customers. You'll interact with them in the connector authorization page.
 
-Google Sheets
--------------
+## Google Sheets
 
 If there's no dedicated connector, Google Sheets offers a great alternative for getting your data ready:
 

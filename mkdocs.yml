@@ -20,3 +20,5 @@ nav:
     - Custom API: customapi.md
     - Regular Expressions: regex.md
     - Date & Time: datetime.md
+    - CSV Uploads: uploads.md
+    - Google Sheets: sheets.md
