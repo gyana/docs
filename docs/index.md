@@ -14,7 +14,7 @@
 
 ---
 
-Gyana is a fully customisable web-based tool for business intelligence, written in Django.
+Gyana is a toolkit for building business intelligence tools, written in Django.
 
 Why Gyana? In our experience, traditional BI tools lack the flexibility most businesses need, but building a modern data stack is often overkill.
 
@@ -35,3 +35,24 @@ Watch our 3 minute intro to see how to use Gyana:
 - Fully-featured collaboration system for internal teams or managing clients
 - Opinionated, high quality, low Javascript (think: HTMX + AlpineJS) codebase built on idiomatic Django
 - Fully open source, self-host wherever you want
+
+## Getting started
+
+You can run Gyana locally <5 mins with docker:
+
+```bash
+git clone git@github.com:gyana/gyana.git
+cd gyana
+docker build -f Dockerfile.dev -t gyana:dev .
+docker compose up
+```
+
+Open your browser at http://localhost:8000.
+
+__Note__: For the signup, your activation email will be logged in the terminal 😊
+
+For more detailed instructions on local developmnet, see our [DEVELOPMENT](https://github.com/gyana/gyana/blob/main/DEVELOPMENT.md) guide.
+
+## License
+
+This project is licensed under the terms of the MIT license.
