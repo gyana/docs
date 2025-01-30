@@ -217,6 +217,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting started
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    License
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -524,6 +538,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting started
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    License
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -551,7 +579,7 @@
 <p><strong>Documentation</strong>: <a href="https://gyana.github.io/docs" target="_blank">https://gyana.github.io/docs</a></p>
 <p><strong>Source Code</strong>: <a href="https://github.com/gyana/gyana" target="_blank">https://github.com/gyana/gyana</a></p>
 <hr />
-<p>Gyana is a fully customisable web-based tool for business intelligence, written in Django.</p>
+<p>Gyana is a toolkit for building business intelligence tools, written in Django.</p>
 <p>Why Gyana? In our experience, traditional BI tools lack the flexibility most businesses need, but building a modern data stack is often overkill.</p>
 <p>Gyana solves this in two ways:</p>
 <ol>
@@ -569,6 +597,18 @@
 <li>Opinionated, high quality, low Javascript (think: HTMX + AlpineJS) codebase built on idiomatic Django</li>
 <li>Fully open source, self-host wherever you want</li>
 </ul>
+<h2 id="getting-started">Getting started</h2>
+<p>You can run Gyana locally &lt;5 mins with docker:</p>
+<pre><code class="language-bash">git clone git@github.com:gyana/gyana.git
+cd gyana
+docker build -f Dockerfile.dev -t gyana:dev .
+docker compose up
+</code></pre>
+<p>Open your browser at http://localhost:8000.</p>
+<p><strong>Note</strong>: For the signup, your activation email will be logged in the terminal 😊</p>
+<p>For more detailed instructions on local developmnet, see our <a href="https://github.com/gyana/gyana/blob/main/DEVELOPMENT.md">DEVELOPMENT</a> guide.</p>
+<h2 id="license">License</h2>
+<p>This project is licensed under the terms of the MIT license.</p>
 
 
 
