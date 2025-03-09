@@ -4,8 +4,6 @@
 
 <p align="center"><em>Open source, no-code business intelligence built on Django</em></p>
 
-> 💡 Gyana open source is currently in closed beta, [reach out](mailto:david.kell@gyana.com) for access.
-
 ---
 
 **Documentation**: <a href="https://gyana.github.io/docs" target="_blank">https://gyana.github.io/docs</a>
